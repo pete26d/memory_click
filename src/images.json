@@ -1,0 +1,40 @@
+[
+  {
+      "name":"castlevania",
+      "img":"../assets/images/castlevania.jpg"
+  },{
+      "name":"bioniccommando",
+      "img":"../assets/images/bioniccommando.jpg"
+  },{
+      "name":"milons",
+      "img":"../assets/images/milons.jpg"
+  },{
+      "name":"golgo13",
+      "img":"../assets/images/golgo13.jpg"
+  },{
+      "name":"castlevania2",
+      "img":"../assets/images/castlevania2.jpg"
+  },{
+      "name":"ghostsngoblins",
+      "img":"../assets/images/ghostsngoblins.jpg"
+  },{
+      "name":"metroid",
+      "img":"../assets/images/metroid.jpg"
+  },{
+      "name":"blastermaster",
+      "img":"../assets/images/blastermaster.jpg"
+  },{
+      "name":"zelda",
+      "img":"../assets/images/zelda.jpg"
+  },{
+      "name":"faxanadu",
+      "img":"../assets/images/faxanadu.jpg"
+  },{
+      "name":"ninjagaiden",
+      "img":"../assets/images/ninjagaiden.jpg"
+  },{
+      "name":"castlevania3",
+      "img":"../assets/images/castlevania3.jpg"
+  }
+
+]
