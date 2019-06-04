@@ -57,15 +57,18 @@ class App extends Component {
     return (
       <div className="body">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"/>
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>  
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="></script>  
         <Header score={this.state.score} hScore={this.state.hScore}/>
-        { this.randomImage().map(e => 
-          ( 
-            <Square  updateClicked={this.updateClicked} 
-                    name={e.name} 
-                    img={e.img}/> 
-          ))
-        }
+        <div className = "container">
+          { this.randomImage().map(e => 
+            ( 
+              <Square  updateClicked={this.updateClicked} 
+                      name={e.name} 
+                      img={e.img}/> 
+            ))
+          }
+        </div>  
       </div>
     );
   }

@@ -12,7 +12,7 @@ class Square extends Component {
       backgroundImage: "url(" + background + ")"
     };
 
-    return (<div className="click-item" style={ sqStyle } onClick={(props) => this.props.updateClicked(this.props.name)} name={this.props.name}>
+    return (<div className="click-item float-left" style={ sqStyle } onClick={(props) => this.props.updateClicked(this.props.name)} name={this.props.name}>
   </div>)
   }
 
