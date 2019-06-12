@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Clicky-NES
+[Deployed here](https://clicky-nes.herokuapp.com/)
+
+#### Instructions
+1. 12 images are displayed. 
+1. Click on any image.
+1. The images will shuffle.
+1. Click on an image that you have **not** yet clicked on.
+1. Each time you click on an image that you haven't clicked on yet, you will earn a point.
+1. The game ends when you repeat an image.
+
 ## Available Scripts
 
 In the project directory, you can run:
